@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    font-family: 'Kiwi Maru', serif;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+}
+.menu ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu ul{
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+}
+.menu li{
+    float: left;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    background-color: #333;
+}
+.menu a{
+    display: block;
+    padding: 20px;
+    color: rgb(255, 248, 234);
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: rgb(138, 130, 127);
+}
+ul,li{
+    list-style: none;
+}
+.toTOP{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 3, 3);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.toTOP a{
+    text-decoration: none;
+}
+.toTOP:hover{
+    background-color: rgb(202, 196, 185);
+    cursor: pointer;
+}
+.box1{
+    background-color: rgb(250, 247, 241);
+    clear: both;
+    color: rgb(17, 16, 16)
+}
+.boxA{
+    width: 500px;
+    margin: 0 auto;
+}
+.box1 p{
+    top: 0;
+    left: 0;
+}
+.box1 img{
+    width: 100%;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 247, 241);
+    color: rgb(17, 16, 16)
+}
+.box2 img{
+    width: 200px;
+}
+.box2 p{
+    top: 800px;
+    left: 60%;
+}
+.box3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 247, 241);
+    color: rgb(16, 17, 16)
+}
+.box4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 247, 241);
+    color: rgb(16, 17, 16)
+}
+.box4 img{
+    width: 200px;
+}
